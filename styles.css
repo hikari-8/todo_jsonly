@@ -1,0 +1,23 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+.btn {
+    background-color: ghostwhite;
+    border-radius: 16px;
+    border: none;
+    padding: 4px 16px;
+}
+
+.btn:hover {
+    background-color: blueviolet;
+    color: #fff;
+    cursor: pointer;
+}
+
+.list-row {
+    display: flex;
+    align-items: center;
+    padding-bottom: 4px;
+
+}
